@@ -7,10 +7,6 @@
     <artifactId>webgoat</artifactId>
     <packaging>jar</packaging>
     <version>8.2.3-SNAPSHOT</version>
-    <properties>
-      <sonar.organization>t3mp3st19</sonar.organization>
-      <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-    </properties>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -118,8 +114,8 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <java.version>17</java.version>
-        <webgoat.port>8080</webgoat.port>
-        <webwolf.port>9090</webwolf.port>
+        <webgoat.port>8082</webgoat.port>
+        <webwolf.port>9091</webwolf.port>
 
         <!-- Shared properties with plugins and version numbers across submodules-->
         <ant.version>1.6.5</ant.version>
@@ -136,12 +132,13 @@
         <jose4j.version>0.7.6</jose4j.version>
         <jsoup.version>1.14.3</jsoup.version>
         <jquery.version>3.5.1</jquery.version>
+		<lombok.version>1.18.24</lombok.version>
         <maven-compiler-plugin.version>3.8.0</maven-compiler-plugin.version>
         <maven-failsafe-plugin.version>2.22.0</maven-failsafe-plugin.version>
         <maven-jar-plugin.version>3.1.2</maven-jar-plugin.version>
         <maven-javadoc-plugin.version>3.1.1</maven-javadoc-plugin.version>
         <maven-source-plugin.version>3.1.0</maven-source-plugin.version>
-        <maven-surefire-plugin.version>3.0.0-M5</maven-surefire-plugin.version>
+        <maven-surefire-plugin.version>3.0.0-M4</maven-surefire-plugin.version>
         <pmd.version>3.15.0</pmd.version>
         <thymeleaf.version>3.0.15.RELEASE</thymeleaf.version>
         <webdriver.version>4.3.1</webdriver.version>
